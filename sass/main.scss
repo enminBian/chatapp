@@ -3,23 +3,34 @@
 	margin: 0; padding: 0; box-sizing: border-box;
 }
 
-body { font: 13px Helvetica, Arial; }
+body
+{
+	font: 13px Helvetica, Arial;
+	margin-left: 25%;
+	background-color: #77DCA9;
+}
 
 form {
-	background: #000;
+	background: #CCCCCA;
 	padding: 3px;
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+	width: 50%;
+	height: auto;
+	border:2px solid;
+  border-radius:25px;
 
-	input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
+	input { border: 2px solid; border-radius:25px; padding: 10px; width: 90%; margin-right: 0.5%; }
 
-	button { width: 9%; background: rgb(130, 224,255); border: none; padding: 10px; }
+	button { width: 9%; background: #325EEE; border: 2px solid; border-radius:25px; padding: 10px; }
 }
+
+.nickname { font-size: 24px; text-align: center; margin-left: 20%; }
 
 #messages {
 	list-style-type: none; margin: 0; padding: 0;
+	width: 65%;
 
 	li { padding: 5px 10px;	}
-	li:nth-child(odd) { background: #eee; }
+	li:nth-child(odd) { background: white; }
 }

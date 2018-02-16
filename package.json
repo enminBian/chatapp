@@ -19,11 +19,12 @@
   "homepage": "https://github.com/xushengke/chatapp",
   "dependencies": {
     "express": "^4.16.2",
-    "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.1.0",
+    "node-sass": "^4.7.2",
     "socket.io": "^2.0.4"
   },
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.2"
   }
 }
